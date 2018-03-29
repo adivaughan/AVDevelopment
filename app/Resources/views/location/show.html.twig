@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Location {{ name }}{% endblock %}
+
+{% block body %}
+
+
+<h1>Location {{ name }}</h1>
+
+<ul>
+  {% for note in notes %}
+      <li>{{ note }}</li>
+  {% endfor %}
+</ul>
+{% endblock %}

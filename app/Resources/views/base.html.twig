@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        {% block stylesheets %}{% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+    </head>
+    <body>
+      <header class=header>
+        <img class="logo-icon" src="{{ asset('images/wellbeing logo.jpg')}}"
+
+        {% block body %}{% endblock %}
+
+<div class="footer">
+    <image class="footer-icon" src="{{ asset('images/wellbeing_footer.gif')}}"
+
+        {% block javascripts %}
+        {% endblock %}
+    </body>
+</html>
